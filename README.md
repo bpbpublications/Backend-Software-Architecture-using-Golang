@@ -1,2 +1,2 @@
-# Backend Software Architecture using GoLang
- Backend Software Architecture using GoLang, by BPB Publications
+# Backend Software Architecture using Golang
+ Backend Software Architecture using Golang, by BPB Publications
