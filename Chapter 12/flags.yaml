@@ -1,0 +1,17 @@
+new-feature:
+  variations:
+    Default: false
+    False: false
+    True: true
+  targeting:
+    - name: rule1
+      query: key eq "new-feature-key"
+      percentage:
+        False: 0
+        True: 100
+  defaultRule:
+    name: defaultRule
+    variation: Default
+  metadata:
+    description: this is a simple feature flag
+    

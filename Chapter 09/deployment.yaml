@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-go-server-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-go-server
+  template:
+    metadata:
+      labels:
+        app: my-go-server
+    spec:
+      containers:
+      - name: my-go-server-container
+        image: username/my-go-server:latest # Replace with your Docker image
+        ports:
+        - containerPort: 8080
+
